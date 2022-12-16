@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  margin: 2px;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+  margin: 3px 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 3px 4px;
+  margin: 3px 20px;
+  color: #fff;
+}
+
+nav ul li a .active {
+  color: rgb(150, 150, 150);
+  text-decoration: underline 2px rgb(239, 255, 253);
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin: 2px auto;
+  border: 50px solid transparent;
+  border-radius: 266px;
+  width: 375px;
+  height: 375px;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 250px;
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  padding-bottom: 5px;
+}
+
+.column h2 {
+  margin: 40px 0px 0px 0px;
+}
+
+.column table {
+  margin: auto;
+}
+
+.column table caption {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 25px;
+  margin: 35px 0px 10px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column table tr td {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.h1edu {
+  text-align: center;
+}
+.row2 {
+  display: flex;
+}
+.column2 {
+  flex: 50%;
+  padding: 10px;
+  height: 250px;
+  text-align: left;
+  font-family: "Century Gothic", sans-serif;
+  padding-bottom: 5px;
+}
+body {
+  width: 95%;
+  height: 100%;
+  background-image: url(color\ gradient.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: auto;
+}
+
+
+.column2 p {
+  font-size: 1.5;
+}
+
+
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 25px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    border-radius: 30px;
+    padding: 13px 19px;
+    background-color: black;
+    color: white;
+    width: 10%;
+    margin: 10px 500px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    align-items: center;
+  background-color: #e0cfc2;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#container {
+    color: #000;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.reveal-if-active {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .section {
+    display: block;
+  }
+  #About {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  #info {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  img {
+    display: block;
+    height: 400px;
+    width: 300px;
+  }
+}
